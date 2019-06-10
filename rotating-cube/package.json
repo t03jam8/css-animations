@@ -1,0 +1,12 @@
+{
+  "name": "rotating-cube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "sass": "node-sass -w ./scss/ -o ./dist/css --recursive"
+  }
+}
