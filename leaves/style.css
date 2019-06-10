@@ -86,16 +86,16 @@ section {
   }
 
   20% {
-    transform: translateX(-20px) rotate(33deg);
-  }
-  40% {
     transform: translateX(-20px) rotate(45deg);
   }
-  60% {
+  40% {
     transform: translateX(-20px) rotate(90deg);
   }
-  80% {
+  60% {
     transform: translateX(-20px) rotate(135deg);
+  }
+  80% {
+    transform: translateX(-20px) rotate(180deg);
   }
 
   100% {
